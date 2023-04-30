@@ -1,0 +1,369 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+}
+
+.header_box_wrapper{
+	margin-top: 1%;
+	text-align: center;
+}
+
+.header_icons > img{
+	padding:0px 15px;
+}
+.site_button{
+	color: black ;
+	text-align: center;
+	padding: 13px 44px 13px 44px;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: normal;
+	/*margin-left: 93px;*/
+}
+
+
+.site_header{
+    padding: 12px;
+    text-align: center;
+
+}
+
+ .site_header-nav{
+    /*margin-right: 100px;*/
+	display: inline-block;
+}
+
+.site_header .site_header-nav > a:hover, .site_header-nav > a:visited,.site_header-nav > a:link,.site_header-nav > a:active{
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+    font-size: 19px;
+    padding: 1.2em 2em ;
+}
+
+.site_header .site_header-nav > a.is-active{
+	border-bottom: 1px solid #FB414E;
+}
+
+.intoduction_wrapper{
+	display: flex;
+	background-color: #0B273F;
+	align-items: center;
+justify-content: center;
+}
+
+.intoduction_box1-title{
+	text-align: center;
+    font-size: 5em;
+    color:white;
+    text-shadow: 3px 3px #000;
+    /*padding-bottom: 0px*/
+}
+
+.intoduction_box1-para{
+/*	margin-top: -3em;*/
+	margin-left: 10%;
+	margin-right: 10%;
+    font-size: 18px;
+	color:white;
+
+}
+
+.intoduction_box2-img{
+	width:600px;
+	height:700px;
+}
+
+
+
+.skills-section{
+	margin-top: 20px;
+}
+
+
+.fav_personalities_wrapper{
+	display: flex;
+	margin-top: 82px;
+}
+
+.fav_personalities-b1 > .fav_personalities-b1-img{
+	width:630px;
+	height:370px;
+}
+
+.fav_personalities-b2{
+	margin-top: 40px;
+}
+
+.fav_personalities-b2 > .fav_personalities-title{
+	font-size: 25px;
+}
+.fav_personalities-para{
+	margin-right:5%;
+	margin-bottom: 9%;
+}
+
+.fav_personalities-button{
+	color: #0B273F ;
+	padding: 13px 44px 13px 44px;
+	text-decoration: none;
+	font-size: 1.5em;
+	border: 2px solid #0B273F;
+	border-radius: 10px;
+	padding:10px 20px;
+}
+
+
+.fav_cities_wrapper{
+	display: flex;
+	margin-top: 82px;
+}
+
+.fav_cities-b1{
+	margin-left: 15px;
+}
+
+.fav_cities-b1 > .fav_cities-b1-img{
+	width:576px;
+	height: 370px;
+	border-radius: 10px;
+}
+
+.fav_cities-b2{
+	margin-top:5px;
+	margin-left:45px;
+}
+
+.fav_cities-title{
+	font-size: 25px;
+}
+
+.fav_cities-para{
+	margin-right:5%;
+	margin-bottom: 9%;
+}
+
+.fav_cities-button{
+	color: #0B273F ;
+	padding: 13px 44px 13px 44px;
+	text-decoration: none;
+	font-size: 1.5em;
+	border: 2px solid #0B273F;
+	border-radius: 10px;
+	padding:10px 20px;
+}
+
+.fav_tour_wrapper{
+	display: flex;
+	margin-top: 82px;
+}
+
+.fav_tour-b1{
+	margin-left: 15px;
+}
+
+.fav_tour-b1 > .fav_tour-b1-img{
+	width:576px;
+	height:480px;
+	border-radius: 10px;
+}
+
+.fav_tour-b2{
+	margin-top:5px;
+	margin-left:45px;
+}
+.fav_tour-title{
+    font-size: 25px;
+}
+
+.fav_tour-para{
+	margin-right: 5%;
+	margin-bottom: 9%;
+}
+
+.fav_tour-button{
+	color: #0B273F ;
+	padding: 13px 44px 13px 44px;
+	text-decoration: none;
+	font-size: 1.5em;
+	border: 2px solid #0B273F;
+	border-radius: 10px;
+	padding:10px 20px;
+}
+
+
+.footer_box_wrapper{
+	margin-top: 15%;
+	text-align: center;
+}
+
+.footer_box-title{
+    color:#0B273F;
+}
+
+
+@media only screen and (max-width:1200px)
+{
+    .intoduction_box1-title{
+	
+    font-size: 4em;
+   
+}
+ 
+ .intoduction_box2-img{
+	width:500px;
+	height:700px;
+}
+
+	
+
+.fav_personalities-b1 > .fav_personalities-b1-img{
+	width:500px;
+	height:400px;
+}
+
+.fav_cities-b1 > .fav_cities-b1-img{
+	width:486px;
+	height: 400px;
+
+}
+
+.fav_tour-b1 > .fav_tour-b1-img{
+	width:486px;
+	height:400px;
+}
+
+}
+
+@media only screen and (max-width:992px)
+{
+    .intoduction_box1-title{
+	
+    font-size: 2.5em;
+   
+}
+ 
+ .intoduction_box2-img{
+	width:450px;
+	height:700px;
+}
+
+	
+
+.fav_personalities-b1 > .fav_personalities-b1-img{
+	width:450px;
+	height:400px;
+}
+
+.fav_cities-b1 > .fav_cities-b1-img{
+	width:400px;
+	height: 400px;
+
+}
+
+.fav_tour-b1 > .fav_tour-b1-img{
+	width:400px;
+	height:400px;
+}
+}
+
+
+@media only screen and (max-width:768px)
+{
+
+	.site_button{
+	font-size: 2em;
+	/*margin-left: 93px;*/
+}
+
+    .intoduction_box1-title{
+	
+    font-size: 2.3em;
+   
+}
+ 
+ .intoduction_box2-img{
+	width:400px;
+	height:500px;
+}
+
+	
+
+.fav_personalities-b1 > .fav_personalities-b1-img{
+	width:300px;
+	height:350px;
+}
+
+.fav_cities-b1 > .fav_cities-b1-img{
+	width:248px;
+	height: 350px;
+
+}
+
+.fav_tour-b1 > .fav_tour-b1-img{
+	width:248px;
+	height:350px;
+}
+}
+
+@media only screen and (max-width:600px)
+{
+
+	.site_button{
+
+	font-size: 2em;
+	
+}
+
+    .intoduction_box1-title{
+	
+    font-size: 2em;
+   
+}
+ 
+ .intoduction_box2-img{
+	width:200px;
+	height:400px;
+}
+
+.fav_personalities-button{
+	
+	padding: 10px 22px 10px 22px;
+	
+	font-size: 1em;
+	
+
+}	
+
+.fav_personalities-b1 > .fav_personalities-b1-img{
+	width:200px;
+	height:350px;
+}
+
+
+
+.fav_cities-b1 > .fav_cities-b1-img{
+	width:142px;
+	height: 350px;
+
+}
+
+.fav_tour-b1 > .fav_tour-b1-img{
+	width:142px;
+	height:350px;
+}
+
+.fav_tour-button{
+
+     padding: 10px 22px 10px 22px;
+	font-size: 1em;
+
+}
+
+}
+
+
+
+
+
